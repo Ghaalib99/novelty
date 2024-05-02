@@ -92,7 +92,7 @@ const Footer = () => {
                 display: "flex",
                 alignItems: "center",
                 width: "100%",
-                justifyContent: { xs: "", md: "left" },
+                justifyContent: { xs: "center", md: "left" },
               }}
             >
               <FaFacebookSquare
