@@ -9,7 +9,7 @@ const Content = () => {
     <>
       <Container sx={{ mt: 3, mb: 6 }}>
         <Typography variant="h3" fontWeight={600} mb={4} color="#0A2640">
-          What we do
+          What We Do
         </Typography>
         <Grid
           container

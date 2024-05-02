@@ -22,20 +22,34 @@ const theme = createTheme({
     fontFamily: "Lexend",
     h1: {
       fontSize: "4rem",
+      "@media (max-width:600px)": {
+        fontSize: "3rem",
+      },
     },
     h2: {
       fontSize: "3.5rem",
+      "@media (max-width:600px)": {
+        fontSize: "2.5rem",
+      },
     },
     h3: {
       fontSize: "3rem",
+      "@media (max-width:600px)": {
+        fontSize: "2rem",
+      },
     },
     body1: {
       fontSize: "1.4rem",
       fontWeight: 300,
+      "@media (max-width:600px)": {
+        fontSize: "1.1rem",
+      },
     },
-
     body2: {
       fontSize: "1rem",
+      "@media (max-width:600px)": {
+        fontSize: "0.8rem",
+      },
     },
   },
 });

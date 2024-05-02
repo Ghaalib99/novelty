@@ -6,7 +6,7 @@ const Why = () => {
   return (
     <Box mb={6}>
       <Container>
-        <Typography variant="h2" mb={3} fontWeight={600} color="#0A2640">
+        <Typography variant="h3" mb={3} fontWeight={600} color="#0A2640">
           Why Choose Us?
         </Typography>
         <Engage
