@@ -97,13 +97,24 @@ const Footer = () => {
             >
               <FaFacebookSquare
                 size={40}
-                style={{ marginRight: "10px", color: "#fff" }}
+                style={{
+                  marginRight: "10px",
+                  color: "#fff",
+                  cursor: "pointer",
+                }}
               />
               <FaTwitterSquare
                 size={40}
-                style={{ marginRight: "10px", color: "#fff" }}
+                style={{
+                  marginRight: "10px",
+                  color: "#fff",
+                  cursor: "pointer",
+                }}
               />
-              <FaLinkedin size={40} style={{ color: "#fff" }} />
+              <FaLinkedin
+                size={40}
+                style={{ color: "#fff", cursor: "pointer" }}
+              />
             </Box>
           </Grid>
         </Grid>
